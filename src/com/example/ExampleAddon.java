@@ -25,7 +25,7 @@ public class ExampleAddon implements UC2Addon {
 
     @Override
     public void onStartEvent() {
-        getLogger().info("Hello World!"); // Use getLogger() to print into the console or the log file.
+        System.out.println("Hello World");
 
         // Register your themes, keybindings and modules here.
 
